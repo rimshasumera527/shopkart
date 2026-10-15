@@ -1,0 +1,25 @@
+# ── Root ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
+*.local
+
+# ── Node / Backend ────────────────────────────────────────
+node_modules/
+backend/node_modules/
+backend/.env
+
+# ── Frontend ─────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# ── IDE / Editor ──────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Misc ──────────────────────────────────────────────────
+.gemini/
